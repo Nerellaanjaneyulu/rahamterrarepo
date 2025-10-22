@@ -8,6 +8,6 @@ resource "aws_instance" "three" {
   instance_type = "t3.small"
 
   tags = {
-    Name = "test-server"
+    Name = "dev-server"
   }
 }
