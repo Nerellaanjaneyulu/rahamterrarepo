@@ -1,5 +1,5 @@
 provider "aws" {
-region = "ap-south-1"
+region = "us-east-1s"
 }
 
 resource "aws_instance" "three" {
